@@ -7,7 +7,7 @@ function App() {
       {/* Bootstrap Navigation */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary shadow">
         <div className="container-fluid">
-          <a className="navbar-brand d-flex align-items-center" href="#">
+          <a className="navbar-brand d-flex align-items-center" href="/">
             <img src={logo} alt="OctoFit Logo" width="40" height="40" className="me-2" style={{background: 'white', borderRadius: '50%'}} />
             <span className="fw-bold">OctoFit Tracker</span>
           </a>
@@ -17,19 +17,19 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <a className="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Activities</a>
+                <a className="nav-link" href="/activities">Activities</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Teams</a>
+                <a className="nav-link" href="/teams">Teams</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Leaderboard</a>
+                <a className="nav-link" href="/leaderboard">Leaderboard</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Workouts</a>
+                <a className="nav-link" href="/workouts">Workouts</a>
               </li>
             </ul>
           </div>
@@ -44,7 +44,7 @@ function App() {
               <div className="card-body text-center">
                 <h1 className="display-4 mb-3">Welcome to OctoFit Tracker</h1>
                 <p className="lead mb-4">Track your fitness, join teams, compete on the leaderboard, and get personalized workout suggestions!</p>
-                <a href="#" className="btn btn-primary btn-lg">Get Started</a>
+                <a href="/activities" className="btn btn-primary btn-lg">Get Started</a>
               </div>
             </div>
           </div>
